@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .nav-circle-button {
+    @apply btn btn-ghost btn-circle text-white bg-stone-600 hover:bg-zinc-700 flex items-center justify-center;
+  }
+  .navigation {
+    @apply btn btn-ghost text-white relative;
+  }
+  .bottomBar {
+    @apply w-full h-1 bg-purple-600 absolute -bottom-0.5 left-0;
+  }
+  .navButton {
+    @apply w-10 xl:w-16 h-7;
+  }
+}
